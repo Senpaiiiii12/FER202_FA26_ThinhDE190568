@@ -2,7 +2,7 @@ import Badge from 'react-bootstrap/Badge'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, style }) => {
 	const {
 		name = 'Sản phẩm chưa đặt tên',
 		price,
@@ -24,7 +24,10 @@ const ProductCard = ({ product }) => {
 	})
 
 	return (
-		<Card className={`h-100 position-relative ${inStock ? '' : 'opacity-50'}`}>
+		<Card
+			style={{ ...style }}
+			className={`h-100 position-relative ${inStock ? '' : 'opacity-50'}`}
+		>
 			{discount > 0 && (
 				<Badge bg="danger" className="position-absolute top-0 end-0 m-2">
 					-{discount}%
