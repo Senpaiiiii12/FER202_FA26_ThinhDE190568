@@ -1,10 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import CartTable from './components/CartTable'
-import { cartItems } from './data/cart'
-import { products } from './data/products'
+import RegisterForm from './components/RegisterForm'
 
 function App() {
-  return <CartTable cartItems={cartItems} products={products} />
+  return <RegisterForm />
 }
 
 export default App
