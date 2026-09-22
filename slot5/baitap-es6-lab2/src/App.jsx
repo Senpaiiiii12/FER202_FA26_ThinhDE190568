@@ -1,10 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Layout, RegisterForm } from './components'
+import { Layout } from './components'
+import HomePage from './pages/HomePage'
 
 function App() {
   return (
-    <Layout title="Đăng ký tài khoản">
-      <RegisterForm />
+    <Layout title="Cửa hàng mini">
+      <HomePage />
     </Layout>
   )
 }
