@@ -1,8 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import RegisterForm from './components/RegisterForm'
+import { Layout, RegisterForm } from './components'
 
 function App() {
-  return <RegisterForm />
+  return (
+    <Layout title="Đăng ký tài khoản">
+      <RegisterForm />
+    </Layout>
+  )
 }
 
 export default App
