@@ -1,0 +1,419 @@
+.counter {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-bottom: 24px;
+
+  &:hover {
+    border-color: var(--accent-border);
+  }
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+.hero {
+  position: relative;
+
+  .base,
+  .framework,
+  .vite {
+    inset-inline: 0;
+    margin: 0 auto;
+  }
+
+  .base {
+    width: 170px;
+    position: relative;
+    z-index: 0;
+  }
+
+  .framework,
+  .vite {
+    position: absolute;
+  }
+
+  .framework {
+    z-index: 1;
+    top: 34px;
+    height: 28px;
+    transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
+      scale(1.4);
+  }
+
+  .vite {
+    z-index: 0;
+    top: 107px;
+    height: 26px;
+    width: auto;
+    transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
+      scale(0.8);
+  }
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  flex-grow: 1;
+
+  @media (max-width: 1024px) {
+    padding: 32px 20px 24px;
+    gap: 18px;
+  }
+}
+
+#next-steps {
+  display: flex;
+  border-top: 1px solid var(--border);
+  text-align: left;
+
+  & > div {
+    flex: 1 1 0;
+    padding: 32px;
+    @media (max-width: 1024px) {
+      padding: 24px 20px;
+    }
+  }
+
+  .icon {
+    margin-bottom: 16px;
+    width: 22px;
+    height: 22px;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+#docs {
+  border-right: 1px solid var(--border);
+
+  @media (max-width: 1024px) {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+#next-steps ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  margin: 32px 0 0;
+
+  .logo {
+    height: 18px;
+  }
+
+  a {
+    color: var(--text-h);
+    font-size: 16px;
+    border-radius: 6px;
+    background: var(--social-bg);
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: box-shadow 0.3s;
+
+    &:hover {
+      box-shadow: var(--shadow);
+    }
+    .button-icon {
+      height: 18px;
+      width: 18px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      flex: 1 1 calc(50% - 8px);
+    }
+
+    a {
+      width: 100%;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+  }
+}
+
+#spacer {
+  height: 88px;
+  border-top: 1px solid var(--border);
+  @media (max-width: 1024px) {
+    height: 48px;
+  }
+}
+
+.ticks {
+  position: relative;
+  width: 100%;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: -4.5px;
+    border: 5px solid transparent;
+  }
+
+  &::before {
+    left: 0;
+    border-left-color: var(--border);
+  }
+  &::after {
+    right: 0;
+    border-right-color: var(--border);
+  }
+}
+
+.restaurant-page {
+  min-height: 100vh;
+  background: #303030;
+  color: #f7f4ef;
+}
+
+.site-header {
+  position: relative;
+  z-index: 2;
+  background: #292929;
+}
+
+.site-header .navbar {
+  min-height: 56px;
+}
+
+.site-header .navbar-brand {
+  margin-right: 30px;
+  color: #f7f4ef;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+.site-header .nav-link {
+  padding-inline: 14px !important;
+  color: #dedede;
+  font-size: 0.9rem;
+}
+
+.search-form {
+  width: min(260px, 100%);
+}
+
+.search-form .form-control {
+  border-radius: 3px 0 0 3px;
+}
+
+.search-form .btn {
+  min-width: 38px;
+  border-radius: 0 3px 3px 0;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.hero-carousel {
+  background: #171311;
+}
+
+.hero-carousel .carousel-item {
+  height: clamp(260px, 34vw, 410px);
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 54%;
+  filter: brightness(0.67);
+}
+
+.hero-carousel .carousel-caption {
+  right: 12%;
+  bottom: 38px;
+  left: 12%;
+  text-shadow: 0 2px 8px #000;
+}
+
+.carousel-caption h1 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+}
+
+.carousel-caption p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.menu-section {
+  max-width: 980px;
+  padding-top: 32px;
+}
+
+.menu-section h2,
+.booking-section h2 {
+  margin: 0 0 14px;
+  color: #f7f4ef;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.pizza-card {
+  position: relative;
+  overflow: hidden;
+  border: 0;
+  border-radius: 3px;
+  background: #fff;
+  color: #393939;
+}
+
+.pizza-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.pizza-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3px 12px;
+  background: #ffdf00;
+  color: #222;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.pizza-card .card-body {
+  min-height: 112px;
+  padding: 12px;
+}
+
+.pizza-card .card-title {
+  margin: 0 0 6px;
+  color: #373737;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1rem;
+}
+
+.pizza-price {
+  display: flex;
+  gap: 7px;
+  margin: 0 0 10px;
+  font-size: 0.82rem;
+}
+
+.pizza-price del {
+  color: #777;
+}
+
+.sale-price {
+  color: #e77c24;
+  font-weight: 600;
+}
+
+.buy-button {
+  border-radius: 3px;
+  background: #343a40;
+  font-size: 0.78rem;
+}
+
+.booking-section {
+  max-width: 980px;
+  padding-top: 42px;
+  padding-bottom: 54px;
+}
+
+.booking-section h2 {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.booking-section .form-control,
+.booking-section .form-select {
+  border-radius: 3px;
+  font-size: 0.82rem;
+}
+
+.booking-message {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.send-button {
+  min-width: 150px;
+  border: 0;
+  border-radius: 3px;
+  background: #f5b900;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.send-button:hover {
+  background: #dfa900;
+  color: #fff;
+}
+
+.form-feedback {
+  display: inline-block;
+  margin: 0 0 0 12px;
+  color: #b9e6c5;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 767.98px) {
+  .site-header .navbar {
+    padding-block: 8px;
+  }
+
+  .search-form {
+    margin: 10px 0 6px;
+  }
+
+  .hero-carousel .carousel-caption {
+    right: 10%;
+    bottom: 28px;
+    left: 10%;
+  }
+
+  .carousel-caption p {
+    font-size: 0.84rem;
+  }
+
+  .menu-section {
+    padding-top: 24px;
+  }
+
+  .pizza-card .card-body {
+    min-height: 120px;
+    padding: 10px;
+  }
+
+  .pizza-card .card-title {
+    font-size: 0.9rem;
+  }
+
+  .booking-section {
+    padding-top: 32px;
+  }
+}
