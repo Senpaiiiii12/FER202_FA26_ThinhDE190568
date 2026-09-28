@@ -182,3 +182,85 @@
     border-right-color: var(--border);
   }
 }
+
+#root {
+  width: 100%;
+  max-width: none;
+  border: 0;
+  text-align: left;
+}
+
+body {
+  background: #fff;
+}
+
+.exercise-page {
+  width: min(100%, 826px);
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 4px 24px 48px;
+  color: #1b1b1b;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.exercise-header {
+  font-style: italic;
+}
+
+.exercise-content {
+  padding-top: 26px;
+}
+
+.exercise-content h1 {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+  margin: 0 0 10px;
+  color: #262932;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.exercise-content hr {
+  margin: 8px 0 18px;
+  border: 0;
+  border-top: 1px solid #d8dce2;
+}
+
+.expectations-title {
+  display: inline-block;
+  margin: 0 0 12px;
+  text-decoration: underline;
+  text-decoration-color: #ed5265;
+  text-underline-offset: 4px;
+}
+
+.exercise-content ul {
+  margin: 0 0 18px;
+  padding-left: 24px;
+}
+
+.exercise-content li {
+  padding-left: 4px;
+  margin-bottom: 4px;
+}
+
+.counter-widget {
+  margin: 0 auto;
+}
+
+@media (max-width: 560px) {
+  .exercise-page {
+    padding-inline: 18px;
+  }
+
+  .exercise-content h1 {
+    font-size: 19px;
+  }
+
+  .counter-widget p {
+    font-size: 34px;
+  }
+}

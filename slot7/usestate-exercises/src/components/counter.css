@@ -1,0 +1,25 @@
+.counter-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+}
+
+.counter-widget h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #000;
+}
+
+.counter-widget p {
+  margin: 0;
+  font-size: 24px;
+}
+
+.counter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
