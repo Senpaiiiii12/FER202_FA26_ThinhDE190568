@@ -1,0 +1,33 @@
+.todo-list-widget {
+  width: min(100% - 32px, 560px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 32px auto;
+}
+
+.todo-list-widget h1 {
+  margin: 0;
+  color: #000;
+  font-size: 32px;
+}
+
+.todo-form {
+  display: flex;
+  gap: 8px;
+}
+
+.todo-form .form-control {
+  min-width: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.todo-item span {
+  overflow-wrap: anywhere;
+}

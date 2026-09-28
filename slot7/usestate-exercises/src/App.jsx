@@ -1,8 +1,8 @@
-import ToggleVisibility from './components/toggleVisibility.jsx'
+import TodoList from './components/todoList.jsx'
 import './App.css'
 
 function App() {
-  return <ToggleVisibility />
+  return <TodoList />
 }
 
 export default App
