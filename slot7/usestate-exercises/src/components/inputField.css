@@ -1,0 +1,19 @@
+.input-field-widget {
+  width: min(100% - 32px, 400px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 32px auto;
+}
+
+.input-field-widget h1 {
+  margin: 0;
+  color: #000;
+  font-size: 32px;
+}
+
+.input-field-widget p {
+  margin: 0;
+  overflow-wrap: anywhere;
+  font-size: 20px;
+}

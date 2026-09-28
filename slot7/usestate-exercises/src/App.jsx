@@ -1,10 +1,8 @@
-import Counter from './components/counter.jsx'
+import InputField from './components/inputField.jsx'
 import './App.css'
 
 function App() {
-  return (
-    <Counter />
-  )
+  return <InputField />
 }
 
 export default App
