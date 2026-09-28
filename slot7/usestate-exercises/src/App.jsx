@@ -1,8 +1,8 @@
-import InputField from './components/inputField.jsx'
+import ToggleVisibility from './components/toggleVisibility.jsx'
 import './App.css'
 
 function App() {
-  return <InputField />
+  return <ToggleVisibility />
 }
 
 export default App
