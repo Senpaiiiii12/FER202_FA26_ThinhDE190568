@@ -1,8 +1,8 @@
-import ColorSwitcher from './components/colorSwitcher.jsx'
+import SearchFilter from './components/searchFilter.jsx'
 import './App.css'
 
 function App() {
-  return <ColorSwitcher />
+  return <SearchFilter />
 }
 
 export default App
