@@ -1,8 +1,8 @@
-import SearchFilter from './components/searchFilter.jsx'
+import DragDropList from './components/dragDropList.jsx'
 import './App.css'
 
 function App() {
-  return <SearchFilter />
+  return <DragDropList />
 }
 
 export default App
