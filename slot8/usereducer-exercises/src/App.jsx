@@ -1,10 +1,10 @@
 import Container from 'react-bootstrap/Container';
-import OrderTracker from './usereducer/OrderTracker.jsx';
+import KanbanBoard from './usereducer/KanbanBoard.jsx';
 
 function App() {
   return (
     <Container className="py-5">
-      <OrderTracker />
+      <KanbanBoard />
     </Container>
   );
 }
