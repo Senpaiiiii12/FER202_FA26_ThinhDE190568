@@ -1,10 +1,10 @@
 import Container from 'react-bootstrap/Container';
-import CourseWizard from './usereducer/CourseWizard.jsx';
+import NotesBoard from './usereducer/NotesBoard.jsx';
 
 function App() {
   return (
     <Container className="py-5">
-      <CourseWizard />
+      <NotesBoard />
     </Container>
   );
 }

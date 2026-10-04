@@ -25,3 +25,27 @@ body {
 .course-wizard {
   max-width: 560px;
 }
+
+.note-swatch {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+  border: 1px solid #6c757d;
+  border-radius: 50%;
+  background: var(--swatch-color);
+  cursor: pointer;
+}
+
+.note-swatch.is-selected {
+  outline: 2px solid #212529;
+  outline-offset: 2px;
+}
+
+.note-swatch-small {
+  width: 20px;
+  height: 20px;
+}
+
+.note-content {
+  overflow-wrap: anywhere;
+}
