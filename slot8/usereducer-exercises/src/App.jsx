@@ -1,10 +1,10 @@
 import Container from 'react-bootstrap/Container';
-import KanbanBoard from './usereducer/KanbanBoard.jsx';
+import CourseWizard from './usereducer/CourseWizard.jsx';
 
 function App() {
   return (
     <Container className="py-5">
-      <KanbanBoard />
+      <CourseWizard />
     </Container>
   );
 }
