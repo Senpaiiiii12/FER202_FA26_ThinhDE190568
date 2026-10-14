@@ -1,21 +1,22 @@
+import halongBay from '../assets/images/halong-bay.jpg'
+import kyotoYasakaDori from '../assets/images/kyoto-yasaka-dori.jpg'
+import parisEiffelTower from '../assets/images/paris-eiffel-tower.jpg'
+
 const banners = [
   {
-    image:
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80',
-    title: 'Khám phá thiên nhiên',
-    description: 'Cùng khám phá những khung cảnh tuyệt đẹp quanh thế giới.',
+    image: halongBay,
+    title: 'Khám phá Việt Nam',
+    description: 'Trải nghiệm văn hóa và cảnh đẹp trên những hành trình đáng nhớ.',
   },
   {
-    image:
-      'https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1600&q=80',
-    title: 'Bầu trời đêm',
-    description: 'Ngắm nhìn vẻ đẹp yên bình của bầu trời khi đêm xuống.',
+    image: kyotoYasakaDori,
+    title: 'Sắc màu Kyoto',
+    description: 'Dạo bước qua những ngôi đền và con phố cổ đặc trưng của Nhật Bản.',
   },
   {
-    image:
-      'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80',
-    title: 'Hành trình mới',
-    description: 'Bắt đầu hành trình và lưu giữ những khoảnh khắc đáng nhớ.',
+    image: parisEiffelTower,
+    title: 'Paris hoa lệ',
+    description: 'Khám phá tháp Eiffel và những công trình nổi tiếng của nước Pháp.',
   },
 ]
 

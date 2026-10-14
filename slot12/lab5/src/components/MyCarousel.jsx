@@ -10,11 +10,7 @@ function MyCarousel() {
             className="d-block w-100"
             src={banner.image}
             alt={banner.title}
-            style={{
-              height: '400px',
-              objectFit: 'contain',
-              backgroundColor: '#000',
-            }}
+            style={{ height: '400px', objectFit: 'cover' }}
           />
           <Carousel.Caption>
             <h3>{banner.title}</h3>

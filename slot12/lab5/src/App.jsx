@@ -6,6 +6,7 @@ import New from './pages/New.jsx'
 import Footer from './components/Footer.jsx'
 import Navbar from './components/Navbar.jsx'
 import MyCarousel from './components/MyCarousel.jsx'
+import ProductList from './pages/ProductList.jsx'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/new" element={<New />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/products" element={<ProductList />} />
       </Routes>
       <Footer />
     </>

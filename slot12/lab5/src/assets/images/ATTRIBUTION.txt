@@ -1,0 +1,51 @@
+Destination photos used by the tour cards and carousel:
+
+halong-bay.jpg
+  Photo: Jakub Hałun
+  Source: https://commons.wikimedia.org/wiki/File:Bai_Chay_beach,_Ha_Long,_Vietnam,_20240129_0915_3958.jpg
+  License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0
+
+sapa-rice-terraces.jpg
+  Photo: Eerin25
+  Source: https://commons.wikimedia.org/wiki/File:Rice_terraces_in_Sapa,_Vietnam.jpg
+  License: CC0 - http://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+danang-golden-bridge.jpg
+  Photo: Vivu Vietnam
+  Source: https://commons.wikimedia.org/wiki/File:Da_Nang_Golden_Bridge,_Sun_World_Ba_Na_Hills.jpg
+  License: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0
+
+hoi-an-lanterns.jpg
+  Photo: Christophe95
+  Source: https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_3.jpg
+  License: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0
+
+phu-quoc-sunset.jpg
+  Photo: Elmschrat
+  Source: https://commons.wikimedia.org/wiki/File:1_Phu_Quoc_sunset.jpg
+  License: CC0 - http://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+bangkok-wat-arun.jpg
+  Photo: Diego Delso
+  Source: https://commons.wikimedia.org/wiki/File:Templo_Wat_Arun,_Bangkok,_Tailandia,_2013-08-22,_DD_30.jpg
+  License: CC BY-SA 3.0 - https://creativecommons.org/licenses/by-sa/3.0
+
+kyoto-yasaka-dori.jpg
+  Photo: Basile Morin
+  Source: https://commons.wikimedia.org/wiki/File:Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_(Hokan-ji_Temple),_Kyoto,_Japan.jpg
+  License: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0
+
+paris-eiffel-tower.jpg
+  Photo: Jorge Royan
+  Source: https://commons.wikimedia.org/wiki/File:Paris_-_The_Eiffel_Tower_in_spring_-_2307.jpg
+  License: CC BY-SA 3.0 - https://creativecommons.org/licenses/by-sa/3.0
+
+bali-besakih-temple.jpg
+  Photo: CEphoto, Uwe Aranas
+  Source: https://commons.wikimedia.org/wiki/File:Besakih_Bali_Indonesia_Pura-Besakih-02.jpg
+  License: CC BY-SA 3.0 - https://creativecommons.org/licenses/by-sa/3.0
+
+swiss-alps-lake-geneva.jpg
+  Photo: Giles Laurent
+  Source: https://commons.wikimedia.org/wiki/File:044_Lake_Geneva_and_Swiss_Alps_Photo_by_Giles_Laurent.jpg
+  License: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0

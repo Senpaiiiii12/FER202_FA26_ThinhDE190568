@@ -20,6 +20,9 @@ function Navbar() {
             <Nav.Link as={NavLink} to="/contact">
               Contact
             </Nav.Link>
+            <Nav.Link as={NavLink} to="/products">
+              Tours
+            </Nav.Link>
           </Nav>
         </BootstrapNavbar.Collapse>
       </Container>
