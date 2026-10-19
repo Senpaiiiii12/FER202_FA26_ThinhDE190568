@@ -1,5 +1,7 @@
+import AxiosDemo from './components/AxiosDemo.jsx'
+
 function App() {
-  return <h1>DemoAxios</h1>
+  return <AxiosDemo />
 }
 
 export default App
