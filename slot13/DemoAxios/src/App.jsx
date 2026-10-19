@@ -1,7 +1,7 @@
-import AxiosDemo from './components/AxiosDemo.jsx'
+import PostList from './components/PostList.jsx'
 
 function App() {
-  return <AxiosDemo />
+  return <PostList />
 }
 
 export default App
