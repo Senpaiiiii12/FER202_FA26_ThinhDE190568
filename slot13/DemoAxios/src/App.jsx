@@ -1,10 +1,10 @@
 
-import DeletePost from './components/DeletePost';
+import RequestConfig from './components/RequestConfig';
 
 function App() {
   return (
     <div>
-      <DeletePost />
+      <RequestConfig />
     </div>
   );
 }
