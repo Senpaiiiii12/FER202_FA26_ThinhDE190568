@@ -1,13 +1,12 @@
-import CreatePost from './components/CreatePost.jsx'
-import PostList from './components/PostList.jsx'
+import UpdatePost from './components/UpdatePost';
+
 
 function App() {
-  return (
-    <>
-      <CreatePost />
-      <PostList />
-    </>
-  )
+return (
+<div>
+<UpdatePost />
+</div>
+);
 }
 
-export default App
+export default App;
