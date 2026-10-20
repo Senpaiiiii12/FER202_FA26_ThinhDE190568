@@ -1,12 +1,12 @@
-import UpdatePost from './components/UpdatePost';
 
+import PatchPost from './components/PatchPost';
 
 function App() {
-return (
-<div>
-<UpdatePost />
-</div>
-);
+  return (
+    <div>
+      <PatchPost />
+    </div>
+  );
 }
 
 export default App;
