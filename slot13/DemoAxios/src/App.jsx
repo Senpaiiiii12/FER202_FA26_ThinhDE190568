@@ -1,10 +1,10 @@
 
-import PatchPost from './components/PatchPost';
+import DeletePost from './components/DeletePost';
 
 function App() {
   return (
     <div>
-      <PatchPost />
+      <DeletePost />
     </div>
   );
 }
