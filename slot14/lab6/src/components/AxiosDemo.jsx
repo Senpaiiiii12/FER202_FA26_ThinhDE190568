@@ -1,38 +1,37 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+   import { useState, useEffect } from 'react';
+    import axios from 'axios';
 
-const AxiosDemo = () => {
-  const [data, setData] = useState(null);
-  const [error, setError] = useState(null);
+      const AxiosDemo = () => {
+      const [data, setData] = useState(null);
+      const [loading, setLoading] = useState(true);
+      const [error, setError] = useState(null);
 
-  useEffect(() => {
-    axios
-      .get('https://jsonplaceholder.typicode.com/posts/1')
-      .then(response => {
-        setData(response.data);
-      })
-      .catch(error => {
-        setError(error.message);
-      });
-  }, []);
+      useEffect(() => {
+        // KHÔNG viết useEffect(async () => ...) – khai báo hàm async bên trong rồi gọi
+        const fetchPost = async () => {
+          try {
+            const response = await axios.get('https://jsonplaceholder.typicode.com/posts/1');
+            setData(response.data);
+          } catch (err) {
+            setError(err.message);
+          } finally {
+            setLoading(false); // luôn chạy, dù thành công hay lỗi
+          }
+        };
 
-  if (error) {
-    return <div>Error: {error}</div>;
-  }
+        fetchPost();
+      }, []);
 
-  return (
-    <div>
-      <h1>Axios Demo</h1>
-      {data ? (
+      if (loading) return <div>Loading...</div>;
+      if (error) return <div>Error: {error}</div>;
+
+      return (
         <div>
+          <h1>Axios Demo</h1>
           <h2>{data.title}</h2>
           <p>{data.body}</p>
         </div>
-      ) : (
-        <div>Loading...</div>
-      )}
-    </div>
-  );
-};
+      );
+    };
 
-export default AxiosDemo;
+    export default AxiosDemo;
